@@ -1,0 +1,263 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: #ffffff;
+    background-image: linear-gradient(to right, #ffffff 2%, #63C6000 82%);
+}
+.loader-inner{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+    color: #007bff;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  @media screen and (max-width: 600px) {
+    .ml6 {
+        color: #007bff;
+        position: relative;
+        font-weight: 200;
+        font-size: 1.8em;
+    }
+  }
+  .spinner {
+    margin: 10px auto 0;
+    width: 70px;
+    text-align: center;
+  }
+  
+  .spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: #007bff;
+  
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+  
+  .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  
+  .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }
+  
+.verified{
+    margin-bottom: 20px;
+}
+.center-card{
+    margin: 20px auto;
+}
+.worked-for{
+    display: block;
+    margin-top: 10px;
+}
+.call{
+    margin-right: 10px;
+}
+.phone-numbers{
+    margin-bottom: 5px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn-worked{
+    font-size: 25px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.btn-not-worked{
+    font-size: 25px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.select-cities{
+    margin-bottom: 10px;
+}
+.select-cities .select2-container{
+    width: 100%!important;
+}
+
+.select-needs .select2-container{
+    width: 100%!important;
+}
+.shadow-card{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+#upvote-id{
+    display: none;
+}
+.fixed{
+    position:sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.workedbuttons{
+    text-align: center;
+}
+.card-margin{
+    margin-bottom: 20px;
+}
+.slider{
+    display: inline-block;
+    margin-top: 40px;
+}
+.images {
+    height: 250px;
+    width: 250px;
+}
+.images .image{
+    height: 250px;
+    width: 250px!important;
+}
+@media screen and (max-width: 768px) {
+    .images {
+        height: 200px;
+        width: 150px;
+    }
+    .image{
+        height: 150px;
+        width: 150x;
+    }
+  }
+.margin-auto{
+    margin: 0 auto;
+}
+.dev-card{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    /* height: 245px; */
+    overflow: hidden;
+    /* cursor: pointer; */
+    transition: all 0.3s;
+}
+.dev-card:hover{
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    transition: all 0.3s;
+}
+
+.dev-image img{
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.dev-description p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .dev-description p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .dev-card{
+        min-height: auto;
+    }
+    .last-card-thanks{
+        margin-top: 10px;
+    }
+
+  }
+.dev-name h4{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 2px!important;
+}
+
+.dev-name span{
+    margin-bottom: 20px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.icons{
+    margin: 0 auto;
+}
+.dev-name a img{
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+    
+}
+
+.special-thanks{
+    margin-top: 70px;
+}
+/* .last-card-thanks{
+    margin-top: 10px;
+} */
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+/* ***************************************************** */
+                OWL CAROUSEL SETTINGS
+/* ******************************************************/
+.owl-theme .owl-nav [class*=owl-]{
+    color: #FFF;
+    background: #0069d9!important;
+    border-radius:50%;
+    transition: all 0.3s;
+    min-width: 38px;
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: #3764eb;
+}
+

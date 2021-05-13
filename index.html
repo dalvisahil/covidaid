@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader-inner">
+            <h1 class="ml6">
+                <span class="text-wrapper">
+                  <span class="letters">COVID-AID</span>
+                </span>
+            </h1>
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+        </div>
+    </div>
+    <div class="fixed shadow-card">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand text-white font-weight-bold" href="#">COVID-AID</a>
+            <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">COVID Centres <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Vaccination</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 center-card">
+                <form action="">
+                    <div class="card shadow-card mt-4">
+                        <div class="card-body">
+                            <div class="select-cities">
+                                <label for="cities">Select City</label>
+                                <select class="cities" name="cities[]" multiple="multiple">
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Nagpur">Delhi</option>
+                                    <option value="naviMumbai">Navi Mumbai</option>
+                                    <option value="chennai">Chennai</option>
+                                    <option value="nanchi">Nanchi</option>
+                                </select>
+                            </div>
+                            <div class="select-needs">
+                                <label for="needs">Select your need</label>
+                                <select class="needs select-needs" name="needs[]" multiple="multiple">
+                                    <option value="oxygen">Oxygen</option>
+                                    <option value="icu">ICU</option>
+                                    <option value="plasma">Plasma</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary center-card d-block">Check</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- TWEETS -->
+            <div class="col-md-8 center-card mt-5">
+                <div id="tweet-data">
+                    <div class="card border border-primary shadow-card card-margin">
+                        <div class="card-body">
+                            <h3 class="card-title">For MUMBAI - BANDRA</h3>
+                            <h6 class="card-subtitle text-muted verified">This is verified <span class="fa fa-check-circle text-primary"></span></h6>
+                            <p class="card-text tweet-text">Hospital Beds - 3 Oxygen Beds Available
+                                Hospital Name: Veena Multi-speciality Hospital
+                                Phone: +918080833354
+                                Location: Andheri East, Mumbai
+                            </p>
+                            <div class="phone-numbers">
+                                <p class="phone-numbers font-weight-bold">1234567890</p>
+                                <p class="phone-numbers font-weight-bold">8642981717</p>
+                            </div>
+
+                            <div class="buttons center-card d-flex justify-content-center">
+                                <button href="" class="btn btn-primary call" data-toggle="modal" data-target="#exampleModalCenter"><span class="fa fa-phone"></span> Call </button>
+                                <button class="btn btn-primary whatsapp" data-toggle="modal" data-target="#exampleModalCenter"><span class="fa fa-whatsapp"></span> Message</button>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="gallery-item">
+                                    <a href="images/178391643_455273885727312_6121198004728570631_n.jpg" alt="">
+                                        <div class="slider">
+                                            <div id="images1" class="owl-carousel owl-theme images">
+                                                <img src="images/178391643_455273885727312_6121198004728570631_n.jpg" alt="">
+                                                <img src="images/2.jpg" alt="">
+                                                <img src="images/3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="images/2.jpg" alt="" class="image"></a>
+                                    <a href="images/3.jpg"></a>
+                                </div>
+                            </div>
+                            
+                            <div class="workedbuttons">
+                                <span class="fa fa-thumbs-o-up text-center btn-worked"></span>
+                                <!-- <span class="fa fa-thumbs-o-down text-center btn-not-worked"></span> -->
+                                <input type="hidden" value="1" class="tweet_id">
+                                <div class="alertDiv"></div>
+                            </div>
+                            <span class="text-muted worked-for font-weight-bold">This worked for <span class="worked-number">725</span> people</span>
+                        </div>
+                    </div>
+
+
+                    <div class="card border border-primary shadow-card card-margin">
+                        <div class="card-body">
+                            <h3 class="card-title">For MUMBAI - BANDRA</h3>
+                            <h6 class="card-subtitle text-muted verified">This is verified <span class="fa fa-check-circle text-primary"></span></h6>
+                            <p class="card-text tweet-text">Hospital Beds - 3 Oxygen Beds Available
+                                Hospital Name: Veena Multi-speciality Hospital
+                                Phone: +918080833354
+                                Location: Andheri East, Mumbai
+                            </p>
+                            <div class="phone-numbers">
+                                <p class="phone-numbers font-weight-bold">9987920919</p>
+                                <p class="phone-numbers font-weight-bold">9967920919</p>
+                            </div>
+
+                            <div class="buttons center-card d-flex justify-content-center">
+                                <button href="" class="btn btn-primary call" data-toggle="modal" data-target="#exampleModalCenter"><span class="fa fa-phone"></span> Call </button>
+                                <button class="btn btn-primary whatsapp" data-toggle="modal" data-target="#exampleModalCenter"><span class="fa fa-whatsapp"></span> Message</button>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="gallery-item">
+                                    <a href="images/178391643_455273885727312_6121198004728570631_n.jpg" alt="">
+                                        <div class="slider">
+                                            <div id="images2" class="owl-carousel owl-theme images">
+                                                <!-- <img src="images/178391643_455273885727312_6121198004728570631_n.jpg" alt=""> -->
+                                                <img src="images/2.jpg" alt="">
+                                                <img src="images/3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="images/2.jpg" alt="" class="image"></a>
+                                    <a href="images/3.jpg"></a>
+                                </div>
+                            </div>
+                            
+                            <div class="workedbuttons">
+                                <span class="fa fa-thumbs-o-up text-center btn-worked"></span>
+                                <!-- <span class="fa fa-thumbs-o-down text-center btn-not-worked"></span> -->
+                                <input type="hidden" value="1" class="tweet_id">
+                                <div class="alertDiv"></div>
+                            </div>
+                            <span class="text-muted worked-for font-weight-bold">This worked for <span class="worked-number">725</span> people</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Select Number</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="number-modal">
+            <a href="" class="call"></a>
+            <a href="" class="call"></a>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary margin-auto" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="js/anime.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
